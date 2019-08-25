@@ -1,0 +1,115 @@
+/*
+Theme Name: Lombok WP
+Theme URI: http://JOLLYLOMBOK.COM
+Author: Gess Fathan
+Author URI: http://wordpress.org/
+Description: Jolly Lombok theme for wordpress
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: translation-ready, tight-sidebar, custom-header, featured-images, custom-menu
+Text Domain: lombokwp
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: #212529;
+}
+
+.colored {
+  color: white;
+}
+
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+.header_img{
+  height: 80vh
+}
+
+.feature-bg {
+  background: rgba(255, 255, 255, 0.15);
+  width: 100vw;
+  border-radius: 10px;
+}
+
+.polaroid {
+  background: #fcfcfc;
+  box-shadow: 0 0 10px #101010;
+  width: 330px;
+  height: 375px;
+  position: relative;
+}
+
+.polaroid:before, .polaroid:after {
+  width: 100px;
+  height: 40px;
+  display: block;
+  content: "";
+  background: hsla(40, 100%, 80%, 0.4);
+  position: absolute;
+}
+
+.polaroid:before {
+  left: -35px;
+  top: -5px;
+  transform: rotate(-45deg);
+}
+
+.polaroid:after {
+  right: -35px;
+  top: -5px;
+  transform: rotate(45deg);
+}
+
+.polaroid picture {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  right: 1em;
+  bottom: 3em;
+  overflow: hidden;
+}
+
+.polaroid img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.polaroid figcaption {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.6em;
+  line-height: 1.0em;
+  text-align: center;
+  height: 2em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.widget-area > div > ul {
+	list-style: none;
+	padding: 0;
+}
+
+.wpcf7-form label {
+	width: 100%;
+}
